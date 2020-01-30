@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+body {
+  font-family: 'Anton', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/*main home picture */
+.cover1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../image/39.jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+.cover2 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../image/img4.jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+.cover3 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../image/img3.jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+.cover4 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../image/img36.jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+.cover5 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../image/67.jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+h2{
+  font-size: 50px;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+
+}
+ h2 a:link, a:visited{
+  background-color: #F44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px 60px 20px 60px;
+  transition: all 0.5s ease 0s;
+              -moz-transition: all 0.5s ease 0s;
+              -webkit-transition: all 0.5s ease 0s;
+              -o-transition: all 0.5s ease 0s;
+}
+h2 a:hover{
+  background-color: white;
+  color: #F44336;
+}
+p{
+  font-size: 15px;
+  margin: 20px;
+}
+.scrollToTop{
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  height: 30px;
+  padding: 6px 10px;
+  border-radius: 10px 15px;
+  line-height: 20px;
+  text-align: center;
+  background: #F44336;
+  color: #FFF;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+              -moz-transition: all 0.5s ease 0s;
+              -webkit-transition: all 0.5s ease 0s;
+              -o-transition: all 0.5s ease 0s;
+  animation: top 1s infinite ease 1s;
+}
+.scrollToTop:hover{
+  background-color: white;
+  color: #F44336;
+  opacity: 2;
+}
+@keyframes top {
+  0%{
+    bottom: 50px;
+    animation-delay: 0.1s;
+  }
+  50%{
+    bottom: 60px;
+    animation-delay: 1s;
+  }
+  100%{
+    bottom: 50px;
+    animation-delay: 2s;
+  }
+}
+#play audio{
+  display: none;
+}
+.buttons{
+  position: relative;
+  float: right;
+  bottom: 20px;
+  font-size: 30px;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.buttons h3 a:link, a:visited{
+  background-color: #F44336;
+  color: white;
+  padding: 14px 25px;
+  float: left;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 30px 30px 30px 30px;
+  transition: all 0.5s ease 0s;
+              -moz-transition: all 0.4s ease 0s;
+              -webkit-transition: all 0.4s ease 0s;
+              -o-transition: all 0.4s ease 0s;
+}
+.buttons h3 a:hover{
+  background-color: white;
+  color: #F44336;
+}
+h3{
+  top: 10px;
+  padding: 30px;
+}
+#churchVid{
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  max-width: 100%;
+}
